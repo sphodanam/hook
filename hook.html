@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Webhook Sender</title>
+    <style>
+        input, button {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Discord Webhook Sender</h1>
+    <label for="webhookUrl">Webhook URL:</label>
+    <input type="text" id="webhookUrl" required><br>
+    <label for="message">Message:</label>
+    <input type="text" id="message" required><br>
+    <button onclick="sendWebhook()">Send Webhook</button>
+
+    <script src="https://gist.github.com/sphodanam/0d3712a2c8d18b2efe867dc35b42428f"></script>
+</body>
+</html>
